@@ -1,8 +1,8 @@
 # Super-Renamer
-This script, written in Python, mass renames multiple folders as per user request. The user can set what files to rename and what the files should be renamed to. 
+This script, written in Python, mass-renames multiple folders as per the user's request. The user can set what files to rename and what the files should be renamed to. 
 
 <h3>How does it work?</h3>
-The user must add the "FOLDER_PATH" to the ".env" file. Upon running the script, it prompts the user for inputs. Then, it makes the changes. The user can also make changes in renaming by manually coding. The script that uses recursion to rename all the files in every subfolder inside "FOLDER_PATH".
+The user must add the "FOLDER_PATH" to the ".env" file. Upon running the script, it prompts the user for input. Then, it makes the changes. The user can also make changes to the renaming by manually coding. The script uses recursion to rename all the files in every subfolder inside "FOLDER_PATH".
 
 <h3>How to use?</h3>
 0. Download the dotenv library using "pip install dotenv" in PowerShell or CMD. <br> 
