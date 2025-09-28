@@ -8,7 +8,7 @@ rename_count = 0
 old_char = ''
 new_char = ''
 
-path = os.getenv("folder_path")
+path = os.getenv("FOLDER_PATH")
 
 def main():
     # for accessing the global variables
@@ -18,8 +18,8 @@ def main():
     global new_char
 
     # to what to change it to 
-    old_char = ' '
-    new_char = '-'
+    old_char = input("Enter the character you want to change: ")
+    new_char = input("Enter the character you want to changed to: ")
 
     Rename(path, old_char, new_char)
 
@@ -45,10 +45,11 @@ def Rename(path, old, new):
             new_name = ""
             file_count += 1
 
-            # checking if the thing 
+            # checking if the character to change is in the file name
             if old in item:
                 # making the desired changes 
-                new_name = item.replace(old, new)   
+                new_name = item.lower()
+                new_name = new_name.replace(old, new) 
                 rename_count += 1
 
                 # modifying the item path with the new_name
