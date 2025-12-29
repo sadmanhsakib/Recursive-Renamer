@@ -1,3 +1,6 @@
+> **⚠️ ARCHIVED PROJECT**  
+> This project is archived and now part of my [Automation-Toolbox](https://github.com/sadmanhsakib/Automation-Toolbox) repository.
+
 # Recursive-Renamer
 
 **Recursive-Renamer** is a robust Python utility designed to automate the process of mass-renaming files across deeply nested directory structures. It streamlines file organization by performing bulk character replacements and enforcing consistent naming conventions (lowercasing) in a single pass.
@@ -80,18 +83,3 @@ This script modifies filenames directly on your file system. It is recommended t
 ## 🤝 Contributing
 
 This project is solely developed and maintained by **[Sadman Sakib](https://github.com/sadmanhsakib)**.
-
-If you have suggestions or find bugs, feel free to open an issue or submit a Pull Request.
-# Super-Renamer
-This script, written in Python, mass-renames multiple folders as per the user's request. The user can set what files to rename and what the files should be renamed to. 
-
-<h3>How does it work?</h3>
-The user must add the "FOLDER_PATH" to the ".env" file. Upon running the script, it prompts the user for input. Then, it makes the changes. The user can also make changes to the renaming by manually coding. The script uses recursion to rename all the files in every subfolder inside "FOLDER_PATH".
-
-<h3>How to use?</h3>
-0. Download the dotenv library using "pip install dotenv" in PowerShell or CMD. <br> 
-1. Download the GitHub repository.<br>
-2. Unzip the repository.<br>
-3. Create a ".env" file in the same directory and open it. <br>
-4. Write: FOLDER_PATH="". Inside the inverted commas, write the folder's path.<br>
-5. Run the script whenever you want to mass rename something.
